@@ -3,11 +3,11 @@ FROM node:20-alpine
 WORKDIR /app
 
 # Install production dependencies first for better layer caching.
-COPY package*.json ./
+COPY apps/api/package*.json ./
 RUN npm ci --omit=dev
 
 # Copy application source.
-COPY . .
+COPY apps/api/ ./
 
 ENV NODE_ENV=production
 EXPOSE 3000
