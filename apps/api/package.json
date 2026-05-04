@@ -1,0 +1,26 @@
+{
+  "name": "@visitour/api",
+  "version": "1.0.0",
+  "description": "Visitour backend API",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "build": "echo 'Build skipped for now'",
+    "start": "node src/server.js",
+    "lint": "echo 'Lint skipped for now'",
+    "type-check": "echo 'Type check skipped for now'"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.12.0",
+    "sqlite": "^4.2.0",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0"
+  }
+}

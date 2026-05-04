@@ -1,0 +1,17 @@
+{
+  "users": [
+    [
+      "adari.tarun@gmail.com",
+      {
+        "id": "of2q9gohb",
+        "email": "adari.tarun@gmail.com",
+        "password": "King123$",
+        "firstName": "Tarun",
+        "lastName": "Adari"
+      }
+    ]
+  ],
+  "itineraries": [],
+  "entries": [],
+  "itineraryShares": []
+}
